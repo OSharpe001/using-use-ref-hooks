@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-function TextInputWithFocusButton() {
+export default function TextInputWithFocusButton() {
     const inputEl = useRef(null);
     const onButtonClick = () => {
         //"current" points to the mounted text input element
@@ -14,4 +14,4 @@ function TextInputWithFocusButton() {
     );
 };
 
-export default TextInputWithFocusButton;
+// export default TextInputWithFocusButton;
